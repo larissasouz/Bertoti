@@ -3,4 +3,5 @@
 Titus Winters, Software Engineering at Google
 
 
-Comentário: Engenharia de software e programação estão ligadas, devido a programação estar sempre necessitando de uma manutenção ou até mesmo modificação. Para isso acontecer é necessário que a engenharia de software analise, colete e processe os dados, além de identificar potenciais falhas nesses programass e criar soluções de alta performance. Então há duas divisórias: onde quem programa, desenvolve e os engenheiros fazem os devidos upgrades.
+Comentário: Engenharia de software e programação estão ligadas, devido a programação estar sempre necessitando de uma manutenção ou até mesmo modificação.
+Para isso acontecer é necessário que a engenharia de software analise, colete e processe os dados, além de identificar potenciais falhas nesses programas e criar soluções de alta performance.
