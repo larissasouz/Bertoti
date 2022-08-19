@@ -9,6 +9,8 @@ Para isso acontecer é necessário que a engenharia de software analise, colete 
 Deverá conter: 
 - Requisitos: Funcionais e Não funcionais;
 - Arquitetura do sistema;
-- Implementação.
-
+- Implementação.<br>
+<i><b>Lembrando: Tudo é "TRADE-OFF"</b></i>
+- Vantagens: Organização e Manutenção;
+- Desvantagens: Perda de desempenho.
 </p>
