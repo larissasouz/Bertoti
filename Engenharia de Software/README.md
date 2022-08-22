@@ -26,8 +26,11 @@ Deverá conter:
   <b>Requisitos não funcionais:</b>
   - Portabilidade: Web
   - Usabilidade
-  - Desempenho
+  - Desempenho<br>
+  - 
+  ### DIAGRAMA CASO DE USO
   
+  ![Caso de uso](https://github.com/larissasouz/Bertoti/blob/b273dc021f6982c87c281293070bf69c07000b05/Engenharia%20de%20Software/imagens/Caso_de_uso.png)
   
   
   
