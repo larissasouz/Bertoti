@@ -4,6 +4,7 @@
 Para isso acontecer é necessário que a engenharia de software analise, colete e processe os dados, além de identificar potenciais falhas nesses programas e criar soluções de alta performance.
 
 ##
+### CICLO DE VIDA DE UM SOFTWARE
 
 <b> Seguir os passos do exemplo dado em aula, referente a um ciclo de vida de um "Estacionamento".</b>
 Deverá conter: 
@@ -14,3 +15,19 @@ Deverá conter:
 - Vantagens: Organização e Manutenção;
 - Desvantagens: Perda de desempenho.
 </p>
+  
+  <b>Exemplo:</b> Consultório médico (Secretária) <br>
+  <b>Requisitos funcionais:</b><br>
+  - Cadastro de paciente
+  - Marcar consulta
+  - Cancelar consulta
+  - Enviar lembrete
+  
+  <b>Requisitos não funcionais:</b>
+  - Portabilidade: Web
+  - Usabilidade
+  - Desempenho
+  
+  
+  
+  
