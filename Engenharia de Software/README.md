@@ -30,7 +30,10 @@ Deverá conter:
  
   ### DIAGRAMA CASO DE USO
   
-  ![Caso de uso](https://github.com/larissasouz/Bertoti/blob/b273dc021f6982c87c281293070bf69c07000b05/Engenharia%20de%20Software/imagens/Caso_de_uso.png)
+  ![Caso de uso](https://github.com/larissasouz/Bertoti/blob/b273dc021f6982c87c281293070bf69c07000b05/Engenharia%20de%20Software/imagens/caso_de_uso.png)
+  
+  ### SEQUENCIA
+   ![Sequencia](https://github.com/larissasouz/Bertoti/blob/b273dc021f6982c87c281293070bf69c07000b05/Engenharia%20de%20Software/imagens/Sequencia.png)
   
   
   
