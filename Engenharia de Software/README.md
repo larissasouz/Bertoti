@@ -18,7 +18,7 @@ Deverá conter:
   
   <b>Exemplo:</b> Consultório médico (Secretária) <br>
   <b>Requisitos funcionais:</b><br>
-  - Cadastro de paciente
+  - Cadastrar paciente
   - Marcar consulta
   - Cancelar consulta
   - Enviar lembrete
