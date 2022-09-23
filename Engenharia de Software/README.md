@@ -19,9 +19,9 @@ Deverá conter:
   <b>Exemplo:</b> Consultório médico (Secretária) <br>
   <b>Requisitos funcionais:</b><br>
   - Cadastrar paciente
+  - Cadastrar médico
   - Marcar consulta
-  - Cancelar consulta
-  - Enviar lembrete
+
   
   <b>Requisitos não funcionais:</b>
   - Portabilidade: Web
@@ -30,10 +30,12 @@ Deverá conter:
  
   ### DIAGRAMA CASO DE USO
   
-  ![Caso de uso](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/caso_de_uso.png)
+  ![Caso de uso]()
   
   ### SEQUENCIA
-   ![Sequencia](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/Sequencia.png)
+   ![Sequencia]()
   
+  ### CLASSE UML
+  ![Classe UML](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/diagrama_de_classe_uml.drawio%20(1).png)
   
   
