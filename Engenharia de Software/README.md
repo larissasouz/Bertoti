@@ -30,10 +30,10 @@ Deverá conter:
  
   ### DIAGRAMA CASO DE USO
   
-  ![Caso de uso]()
+  ![Caso de uso](https://github.com/larissasouz/Bertoti/blob/5653919552d4a956dd3f9acf9e45c2e43ec8417a/Engenharia%20de%20Software/imagens/caso%20de%20uso.drawio.png)
   
   ### SEQUENCIA
-   ![Sequencia]()
+   ![Sequencia](https://github.com/larissasouz/Bertoti/blob/5653919552d4a956dd3f9acf9e45c2e43ec8417a/Engenharia%20de%20Software/imagens/Sequencia.png.png)
   
   ### CLASSE UML
   ![Classe UML](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/diagrama_de_classe_uml.drawio%20(1).png)
