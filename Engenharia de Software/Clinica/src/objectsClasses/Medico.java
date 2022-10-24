@@ -1,16 +1,15 @@
+package objectsClasses;
+
 public class Medico {
 
-    //atributos
     private String nomeMedico;
     private String especialidade;
 
-    // construtor
     public Medico(String nomeMedico, String especialidade) {
         this.nomeMedico = nomeMedico;
         this.especialidade = especialidade;
     }
 
-    // get e set
     public String getNomeMedico() {
         return nomeMedico;
     }

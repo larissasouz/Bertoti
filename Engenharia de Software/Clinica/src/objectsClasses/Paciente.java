@@ -1,18 +1,19 @@
+package objectsClasses;
+
 public class Paciente {
 
-    //atributos
     private String nome;
     private String cpf;
     private String telefone;
 
-    //construtor
     public Paciente(String nome, String cpf, String telefone) {
         this.nome = nome;
         this.cpf = cpf;
         this.telefone = telefone;
+
+
     }
 
-    // get e set
     public String getNome() {
         return nome;
     }
@@ -36,4 +37,6 @@ public class Paciente {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
+
 }
