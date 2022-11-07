@@ -24,7 +24,6 @@ Deverá conter:
 
   
   <b>Requisitos não funcionais:</b>
-  - Portabilidade: Web
   - Usabilidade
   - Desempenho<br>
  
