@@ -1,7 +1,6 @@
 import objectsClasses.Consulta;
 import objectsClasses.Medico;
 import objectsClasses.Paciente;
-
 import javax.swing.*;
 import java.util.ArrayList;
 
@@ -17,8 +16,8 @@ public class Clinica {
         medicos.add(m2);
         medicos.add(m3);
         medicos.add(m4);
-        Consulta c1 = new Consulta("10/10/2022", p1, medicos);
-        Medico especialista = c1.buscarMedicoPorEspecialidade("Pediatra");
+        Consulta c1 = new Consulta("07/11/2022", p1, medicos);
+        Medico especialista = c1.buscarMedicoPorEspecialidade("Clinico Geral");
         if (especialista != null){
             c1.marcarConsulta(especialista);
         }else {
@@ -26,6 +25,7 @@ public class Clinica {
             String text = "Não temos médico dessa especialidade. ";
             JOptionPane.showMessageDialog(alert, text);
         }
+
 
     }
 }
