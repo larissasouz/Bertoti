@@ -7,7 +7,7 @@
 Para isso acontecer é necessário que a engenharia de software analise, colete e processe os dados, além de identificar potenciais falhas nesses programas e criar soluções de alta performance.
 
 ##
-![Caso de uso](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/Ciclodevida.png?raw=true)
+![Ciclo de vida](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/Ciclodevida.png?raw=true)
 
 
 <b> Seguir os passos do exemplo dado em aula, referente a um ciclo de vida de um "Estacionamento".</b>
@@ -34,8 +34,7 @@ Deverá conter:
  ##
  
   ![Diagrama](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/Diagramadecasodeuso.png?raw=true)
-
-  ![Caso de uso](https://github.com/larissasouz/Bertoti/blob/5653919552d4a956dd3f9acf9e45c2e43ec8417a/Engenharia%20de%20Software/imagens/caso%20de%20uso.drawio.png)
+  <img height="300em" src="https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/casodeuso1.png?raw=true"/>
   
   ##
   ![Sequencia diagrama](https://user-images.githubusercontent.com/102266928/203898016-250873df-4248-483d-b213-ab73767693e2.png)
@@ -45,5 +44,16 @@ Deverá conter:
   ##
   ![Classe](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/ClasseUML.png?raw=true)
   ![Classe UML](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/diagramadeclasse.png?raw=true)
+  
+  ##
+  ![Codigo](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/Codigo.png?raw=true)
+  ![Codigo Consulta](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/codigoClasse.png?raw=true)
+  
+  ##
+  ![Codigo Medico](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/codigoMedico%20-%20Copia.png?raw=true)
+  
+  ##
+  ![Codigo Paciente](https://github.com/larissasouz/Bertoti/blob/main/Engenharia%20de%20Software/imagens/codigoPaciente.png?raw=true)
+  
   
   
