@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Bertoti:jar">
-    <output-path>$PROJECT_DIR$/artifacts/Bertoti_jar</output-path>
-    <root id="archive" name="Bertoti.jar">
-      <element id="module-output" name="Clinica" />
-    </root>
-  </artifact>
-</component>
