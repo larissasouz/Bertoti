@@ -5,7 +5,7 @@
 </p>
 
 
-Contexto do Código: Depósito de Remédios (Padrão Composite)
+Contexto do Código: Depósito de Remédios
 
 Este código Java implementa um sistema de gerenciamento de remédios com o padrão de projeto Composite. O objetivo é permitir que objetos individuais (como Dipirona) e composições desses objetos (como um Depósito de Remédios) sejam tratados de maneira uniforme.
 
