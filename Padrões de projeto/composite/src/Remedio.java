@@ -1,0 +1,3 @@
+interface Remedio {
+    void insert();
+}
