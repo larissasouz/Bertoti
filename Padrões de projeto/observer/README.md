@@ -2,7 +2,7 @@
 <h2 align="center">Observer</center></h2>
 
 <p align="center">
-  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/dbc492d0-fa56-442b-af82-0cb3e7cbfb95" alt="composite">
+  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/0e1f503d-c987-4968-a361-8a71714ed5f6" alt="composite">
 </p>
 
 
