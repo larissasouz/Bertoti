@@ -2,8 +2,9 @@
 <h2 align="center">Singleton</center></h2>
 
 <p align="center">
-  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/fb8754ae-e968-455e-a34e-70d2bed738f3" alt="composite">
+  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/d88e6ffd-f7c4-4d4d-9669-35a85f60783f" alt="composite">
 </p>
+
 
 Contexto do Código: 
 Padrão de Design Singleton
