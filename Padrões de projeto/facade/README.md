@@ -1,9 +1,7 @@
 <h2 align="center">Facade</center></h2>
 
 <p align="center">
-  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/979ced47-b12d-4dbf-aa0c-f73e0ef3ae55" alt="composite">
-
-
+  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/00fb5423-f913-43fc-9429-37d5b67c844b" alt="composite">
 </p>
 
 
