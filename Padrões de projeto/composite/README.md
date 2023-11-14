@@ -1,7 +1,7 @@
 <h2 align="center">Composite</center></h2>
 
 <p align="center">
-  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/2042d378-bd00-4235-8707-c7df758f9866" alt="composite">
+  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/e238c45a-4fb8-45be-abe3-3d1ba2c8518a" alt="composite">
 </p>
 
 
