@@ -1,9 +1,8 @@
 <h2 align="center">Composite</center></h2>
 
 <p align="center">
-  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/c37b0a72-a43b-400e-8fc8-8a6c1c948d53" alt="composite">
+  <img src="https://github.com/larissasouz/Bertoti/assets/102266928/41af68bb-f3a0-46f5-a1bc-03708bc2da28" alt="composite">
 </p>
-
 
 Contexto do Código: 
 
