@@ -20,20 +20,37 @@ Em resumo, o desafio consiste em desenvolver uma aplicação web que simplifica 
 ## CONTRIBUIÇÕES PESSOAIS
 No meu papel de desenvolvedora, minha contribuição abrangeu tanto o Front-End quanto o Back-End do projeto. Algumas das atividades que desempenhei incluíram:<br>
 <br>
-<b> - Desenvolvimento do CRUD para gerenciar vendas: </b><br>
-Implementei funcionalidades semelhantes de CRUD para gerenciar informações de vendas no sistema. Isso incluiu a capacidade de registrar, visualizar, atualizar e excluir dados relacionados às vendas.<br>
+<details> 
+<summary><b>Desenvolvimento de Modelagem e Script: </b></summary>
 
-<b> - Desenvolvimento de tela com CRUD para planejamento: </b><br>
-Projetei e implementei uma interface de usuário que permitia a criação, edição, visualização e exclusão de informações de planejamento. Isso ajudou a organizar e acompanhar o planejamento de atividades ou tarefas relevantes para o sistema.<br>
+Criei a modelagem de banco de dados e desenvolvi o script para criação das tabelas com suas chaves primárias e atributos. <br>
+![image](https://github.com/larissasouz/Bertoti/assets/102266928/6dffb1eb-bafb-4e60-a736-c9afe1dc8e9e)
+</details>
 
-<b> - Desenvolvimento do CRUD para administrador: </b><br>
+<details>
+<summary><b>Desenvolvimento de tela de visualização de planejamento: </b></summary><br>
+Projetei e implementei uma interface de usuário que permitia a visualização de informações de planejamento. Isso ajudou a organizar e acompanhar o planejamento de atividades ou tarefas relevantes para o sistema.<br>
+ 
+![image](https://github.com/larissasouz/Bertoti/assets/102266928/084af6a5-c709-45cb-a7ac-b2cddf26df76) <br>
+O código acima fornece a estrutura básica para exibir informações de planejamento em uma tabela, juntamente com uma imagem e um formulário <br>
+
+![image](https://github.com/larissasouz/Bertoti/assets/102266928/4302cf92-6289-41fb-9c2e-e7aca7733264) <br>
+Neste código, um método é mapeado para lidar com solicitações HTTP GET em uma aplicação Spring Boot. Ele busca dados de planejamento de algum serviço, converte esses dados para um formato específico usando um conversor e retorna essa informação como uma resposta HTTP com status 200 e o corpo contendo a lista de objetos convertidos. Este padrão é comum em APIs RESTful, onde a resposta é estruturada de acordo com o modelo de dados desejado para ser consumido pelos clientes.
+
+</details>
+
+<details>
+<summary><b> Desenvolvimento do CRUD para administrador: </b></summary><br>
 Criei as operações básicas de CRUD (Create, Read, Update e Delete) para gerenciar informações de administradores no sistema. Isso permitiu a criação, leitura, atualização e exclusão de dados relacionados aos administradores.<br>
- <br>
 O código abaixo representa um endpoint de uma API que permite salvar administradores, desde que o e-mail do administrador não esteja em uso. Se o e-mail estiver em uso, ele retornará um erro de conflito (status 409), caso contrário, retornará uma resposta de sucesso (status 201) com o objeto do administrador recém-salvo no corpo da resposta.
+ 
 ![image](https://github.com/larissasouz/Bertoti/assets/102266928/b9a812bc-9a7c-4886-9b0e-8670da256d74)
 
+</details>
 
-<b>Para realizar essas tarefas, utilizei diversas tecnologias, incluindo:</b>
+------------------------------------------------------------------------------------
+
+### Para realizar essas tarefas, utilizei diversas tecnologias, incluindo:
 
 <i>JavaScript:</i> Usei JavaScript para aprimorar a interatividade do Front-End, permitindo aos usuários interagir com os dados e realizar ações nas páginas da web.
 
