@@ -69,12 +69,4 @@ Os principais aprendizados da minha experiência trabalhando em projetos que env
 
 <b>Entendimento do Ciclo de Desenvolvimento:</b> Ganhei uma visão completa do ciclo de vida do desenvolvimento de software, desde a criação da interface do usuário até a lógica de negócios e o gerenciamento de dados.<br>
 
-<b>Design de Interfaces Amigáveis:</b> Aprimorei minhas habilidades de design de interface do usuário, criando interfaces atraentes e funcionais.<br>
-
-<b>Resolução de Problemas Complexos:</b> Desenvolvi habilidades sólidas para resolver problemas complexos que surgem em projetos desse tipo.<br>
-
-<b>Trabalho em Equipe:</b> Aprendi a colaborar de forma eficaz com outros membros da equipe, incluindo designers e outros desenvolvedores.<br>
-
 <b>Fluxo de Dados:</b> Compreendi como os dados fluem entre o Front-End e o Back-End em aplicativos web.<br>
-
-<b>Resolução de Problemas em Tempo Real:</b> Desenvolvi habilidades para lidar com problemas imediatos durante o funcionamento de sistemas ao vivo.<br>
