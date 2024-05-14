@@ -1,4 +1,41 @@
-# Metodologia da Pesquisa Cientifico Tecnologica
+## Meus Projetos
+
+### Em 2022-1
+
+No primeiro semestre de 2022, desenvolvemos a assistente virtual BETA, que tinha como objetivo ajudar alunos em seus estudos diários com funcionalidades como: modo pomodoro, consulta à Wikipedia, reprodutor de música, gravação de voz, gerenciamento de calendário, anotações, lembretes, calculadora e informações sobre o clima. Seguindo a metodologia Scrum em três sprints, o projeto focou em responder a comandos de voz e operar em múltiplas plataformas. Utilizamos Python, HTML e CSS para desenvolvimento e documentamos todo o processo no GitHub. A interface foi desenhada para ser intuitiva e visualmente atrativa, visando uma interação eficiente do usuário 
+
+![API FATEC - BETA - YouTube - Google Chrome 2024-05-14 20-38-45](https://github.com/larissasouz/Bertoti/assets/102266928/3c0bc2aa-4542-4fdf-8f23-99744b82e65b)
+
+
+
+~~~~java
+import speech_recognition as sr
+import requests
+import pyttsx3
+# link do open_weather: https://openweathermap.org/
+def clima():
+    audio = sr.Recognizer()
+    maquina = pyttsx3.init()
+    with sr.Microphone() as source:
+        maquina.say("Informe a cidade da qual deseja descobrir a temperatura. ")
+        maquina.runAndWait()
+        print('ouvindo...')
+        voz = audio.listen(source)
+        cidade = audio.recognize_google(voz, language='pt-BR')
+        maquina.say(cidade)
+        API_KEY = "00a7922cfcccb7df823f10e7014e2e42"
+        link = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={API_KEY}&lang=pt_br"
+        requisicao = requests.get(link)
+        requisicao_dic = requisicao.json()  # Faz a requisição
+        descricao = requisicao_dic['weather'][0]['description']  # Puxa a descrição de como esta o clima
+        temperatura = requisicao_dic['main']['temp'] - 273.15  # Puxa a temperatura atual e faz a conversão
+        maquina = pyttsx3.init()
+        maquina.say(f'Em {cidade} o céu está {descricao} e está {temperatura:.0f}ºC hoje')
+        maquina.runAndWait()
+~~~~
+----
+
+3 Semestre
 
 ![image](https://github.com/larissasouz/Bertoti/assets/102266928/a40ad081-cf92-4932-8035-a582fa4d0e00)
 
