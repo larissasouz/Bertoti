@@ -2,11 +2,16 @@
 
 ### Em 2022-1
 
+<div align="justify">
+
 No primeiro semestre de 2022, desenvolvemos a assistente virtual BETA, que tinha como objetivo ajudar alunos em seus estudos diários com funcionalidades como: modo pomodoro, consulta à Wikipedia, reprodutor de música, gravação de voz, gerenciamento de calendário, anotações, lembretes, calculadora e informações sobre o clima. Seguindo a metodologia Scrum em três sprints, o projeto focou em responder a comandos de voz e operar em múltiplas plataformas. Utilizamos Python, HTML e CSS para desenvolvimento e documentamos todo o processo no GitHub. A interface foi desenhada para ser intuitiva e visualmente atrativa, visando uma interação eficiente do usuário 
 
 ![API FATEC - BETA - YouTube - Google Chrome 2024-05-14 20-38-45](https://github.com/larissasouz/Bertoti/assets/102266928/3c0bc2aa-4542-4fdf-8f23-99744b82e65b)
 
+<b>Exemplo:</b> 
+O código abaixo é um script em Python que usa reconhecimento de voz e uma API de clima para informar ao usuário a temperatura atual de uma cidade especificada verbalmente
 
+</div>
 
 ~~~~java
 import speech_recognition as sr
@@ -33,9 +38,41 @@ def clima():
         maquina.say(f'Em {cidade} o céu está {descricao} e está {temperatura:.0f}ºC hoje')
         maquina.runAndWait()
 ~~~~
+Para mais informações: <a href="https://github.com/alanfmorato/BETA/">GIT</a>
+
+<b> Tecnologias Utilizadas </b>
+- Python (Back-end)
+- Tkinter (Front-end)
+- HTML5 (Front-end)
+- CSS3 (Front-end)
+
+### Contribuições pessoais
+
+<div align="justify>
+
+Durante minha atuação no projeto, desenvolvi várias funcionalidades importantes, incluindo:
+
+<b> Calculadora: </b> Criei uma função que permite aos usuários realizar operações matemáticas por controle de voz. O usuário insere dois números e escolhe a operação desejada entre as opções de: soma, subtração, multiplicação, divisão e exponenciação. Para utilizar a função, o usuário deve dizer: <i> "Beta, calculadora". </i>.
+
+<b> Clima: </b> Desenvolvi uma função que retorna a temperatura de um município. A assistente virtual pergunta ao usuário qual cidade ele deseja saber a temperatura, e o usuário responde com o nome da cidade. O código consulta a API do <i> OpenWeatherMap </i> (https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={API_KEY}&lang=pt_br), que retorna a temperatura atual e uma descrição do clima, se está nublado ou ensolarado. Para utilizar a função, o usuário deve dizer: <i> "Beta, clima". </i>
+
+Essas funcionalidades foram fundamentais para tornar a BETA uma ferramenta versátil e útil para os alunos, permitindo uma interação natural e eficiente através de comandos de voz. Ao integrar essas capacidades, garanti que a assistente virtual pudesse oferecer suporte significativo e prático no dia a dia dos usuários, contribuindo para a melhoria da gestão do tempo e das tarefas estudantis.
+
+</div>
+
+### Hard Skills
+- Python - Tenho a capacidade de desenvolver soluções de programação de maneira independente, com foco em Python como minha principal linguagem.
+- HTML5 - Competência em estruturação semântica, como por exemplo, utilização de tags semânticas como header, footer, article, section, etc., para criar uma estrutura lógica e bem definida do conteúdo da página.
+- CSS3 - Competência em estilizar de forma autônoma, sendo possível criar animações e transições.
+
+### Soft Skills
+- Colaboração - Trabalhei com a equipe para alcançar o objetivo, sempre com foco em compartilhar conhecimentos e resolver problemas juntos, o que melhorou nossa produtividade e criatividade.
+- Liderança - Pela experiência que tive, atuei auxiliando na liderança, lidando com adversidades e trabalhando com a gestão de tempo.
+- Adaptabilidade - Apesar das dificuldades que surgiram no caminho, consegui, junto à equipe, me adaptar às situações e pensar na melhor forma de lidar com elas.
+
 ----
 
-3 Semestre
+Em 2023-1
 
 ![image](https://github.com/larissasouz/Bertoti/assets/102266928/a40ad081-cf92-4932-8035-a582fa4d0e00)
 
