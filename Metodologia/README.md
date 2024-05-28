@@ -54,7 +54,7 @@ Durante minha atuação no projeto, desenvolvi várias funcionalidades important
 
 <b> Calculadora: </b> Criei uma função que permite aos usuários realizar operações matemáticas por controle de voz. O usuário insere dois números e escolhe a operação desejada entre as opções de: soma, subtração, multiplicação, divisão e exponenciação. Para utilizar a função, o usuário deve dizer: <i> "Beta, calculadora". </i>.
 
-<b> Clima: </b> Desenvolvi uma função que retorna a temperatura de um município. A assistente virtual pergunta ao usuário qual cidade ele deseja saber a temperatura, e o usuário responde com o nome da cidade. O código consulta a API do <i> OpenWeatherMap </i> (https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={API_KEY}&lang=pt_br), que retorna a temperatura atual e uma descrição do clima, se está nublado ou ensolarado. Para utilizar a função, o usuário deve dizer: <i> "Beta, clima". </i>
+<b> Clima: </b> Desenvolvi uma função que retorna a temperatura de um município. A assistente virtual pergunta ao usuário qual cidade ele deseja saber a temperatura, e o usuário responde com o nome da cidade. O código consulta a API do <i> OpenWeatherMap </i>, que retorna a temperatura atual e uma descrição do clima, se está nublado ou ensolarado. Para utilizar a função, o usuário deve dizer: <i> "Beta, clima". </i>
 
 Essas funcionalidades foram fundamentais para tornar a BETA uma ferramenta versátil e útil para os alunos, permitindo uma interação natural e eficiente através de comandos de voz. Ao integrar essas capacidades, garanti que a assistente virtual pudesse oferecer suporte significativo e prático no dia a dia dos usuários, contribuindo para a melhoria da gestão do tempo e das tarefas estudantis.
 
