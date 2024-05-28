@@ -48,7 +48,7 @@ Para mais informações: <a href="https://github.com/alanfmorato/BETA/">GIT</a>
 
 ### Contribuições pessoais
 
-<div align="justify>
+<div align="justify">
 
 Durante minha atuação no projeto, desenvolvi várias funcionalidades importantes, incluindo:
 
