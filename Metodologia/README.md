@@ -312,7 +312,7 @@ Além dessas atuações, também desenvolvi algumas funcionalidades importantes 
 
 <b> Checklist personalizado: </b> Como no projeto havia a opção de "checklist personalizado", desenvolvi essa opção para que o usuário pudesse alterar ou inserir um novo checklist de acordo com sua necessidade dentro daquela ordem de serviço.
 
-<b> Cadastro e Consulta de Segmento: Atuei para que o cadastro e a consulta do segmento fosse realizada corretamente no front-end.
+<b> Cadastro e Consulta de Segmento: </b> Atuei para que o cadastro e a consulta do segmento fosse realizada corretamente no front-end.
 
 </div>
 
