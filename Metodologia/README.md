@@ -280,6 +280,7 @@ O código abaixo é código em vue que tem como objetivo realizar o update de um
 Para mais informações: <a href="https://github.com/B1nary-Devs/JAIA-SOFTWARE">GIT</a>
 
 <b> Tecnologias Utilizadas </b>
+
 - Java (Back-end)
 - Oracle Cloud (Back-end)
 - Typescript (Front-end)
@@ -315,12 +316,6 @@ Além dessas atuações, também desenvolvi algumas funcionalidades importantes 
 <b> Cadastro e Consulta de Segmento: </b> Atuei para que o cadastro e a consulta do segmento fosse realizada corretamente no front-end.
 
 </div>
-
-- Java (Back-end)
-- Oracle Cloud (Back-end)
-- Typescript (Front-end)
-- HTML5 (Front-end)
-- CSS3 (Front-end)
 
 ### Hard Skills
 - Java - Habilidade em desenvolver soluções de programação de forma independente.
