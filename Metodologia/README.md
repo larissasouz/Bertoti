@@ -72,6 +72,93 @@ Essas funcionalidades foram fundamentais para tornar a BETA uma ferramenta vers�
 
 ----
 
+### Em 2022-2
+
+<div align="justify">
+
+No segundo semestre de 2022, desenvolvemos um sistema desktop com o objetivo de gerenciar e acompanhar processos seletivos de candidatos para vagas de emprego. O sistema também é capaz de gerar relatórios e realizar análises de aprovação para o setor de recursos humanos.
+
+![2022-11-27 22-30-07_Trim](https://user-images.githubusercontent.com/101594950/204175322-43f2fbed-53c0-47bf-a3c1-2e69d4255ac8.gif)
+
+
+<b>Exemplo:</b> 
+O código abaixo é código em Java que tem como objetivo realizar algumas validações, como: validação de senha e validação de data.
+
+</div>
+
+~~~java
+                    //Validação de senha
+                            if (senha.equals(senha2)) {
+                                String PASSWORD_REGEX = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[-._@#$%^&+=])(?=\\S+$).{8,16}$";
+                                Pattern PASSWORD_PATTERN = Pattern.compile(PASSWORD_REGEX);
+                                if (PASSWORD_PATTERN.matcher(senha).matches()) {
+                                    //Validação de email
+                                    String EMAIL_REGEX = ".+@.+\\.[a-z]+";
+                                    Pattern EMAIL_PATTERN = Pattern.compile(EMAIL_REGEX);
+                                    if (EMAIL_PATTERN.matcher(email).matches()) {
+                                        //Validação de telefone
+                                        String TELEPHONE_REGEX = "\\d{11}";
+                                        Pattern TELEPHONE_PATTERN = Pattern.compile(TELEPHONE_REGEX);
+                                        if (TELEPHONE_PATTERN.matcher(telefone).matches()) {
+                                            //Validação de data
+                                            String DATE_REGEX = "^\\d{4}-\\d{2}-\\d{2}$";
+                                            Pattern DATE_PATTERN = Pattern.compile(DATE_REGEX);
+                                            if (DATE_PATTERN.matcher(data).matches()) {
+                                                Candidato candidato = new Candidato();
+                                                candidato.setNome(nome);
+                                                candidato.setCpf(cpf_long);
+                                                candidato.setDataNac(data);
+                                                candidato.setEmail(email);
+                                                candidato.setSenha(senha);
+                                                candidato.setTelefone(telefone_long);
+
+                                                HelloApplication.ChangeScene("candidato2");
+~~~
+
+Para mais informações: <a href="https://github.com/B1naryDevs/API">GIT</a>
+
+<b> Tecnologias Utilizadas </b>
+- Java (Back-end)
+- MySQL (Front-end)
+- CSS3 (Front-end)
+  
+
+### Contribuições pessoais
+
+<div align="justify">
+
+Durante minha atuação no projeto, desenvolvi várias funcionalidades importantes, incluindo:
+
+<b> Validações: </b> Criei algumas validações que verificam se os os dados inseridos pelo usuário estão corretos, como: Validação de CPF, validação de senha e validação de data.
+
+<b> Ocultar senha: </b> Desenvolvi uma funcionalidade que tinha como objetivo ocultar e mostrar a senha para o usuário, ou seja, no login, o usuário podia optar por visualizar ou não a senha dele.
+
+Além dessas atuações, como Product Owner tive um papel crucial no desenvolvimento do projeto, pois tive a responsábilidade de desenvolver os seguintes itens:
+
+<b> Backlog do produto: </b> Após entender as dores e desenvolver os requisitos do cliente e do projeto, criei o backlog do produto que tinha como objetivo apresentar as atividades e suas respectivas prioridades.
+
+<b> Backlog da sprint: </b> Depois de definido a prioridade das atividades, decidi junto à equipe quando cada atividade seria desenvolvida, sendo criado assim o backlog da sprint. No total, foram 4 sprints de desenvolvimento.
+
+<b> Modelagem do banco de dados: </b> Atuei na modelagem conceitual do banco de dados, definindo como os dados deveriam ser armazenados.
+
+<b> Protótipo de baixa fidelidade: </b> Realizei o design dos protótipos de baixa fidelidade de acordo com as necessidades do cliente.
+
+<b> Readme: </b> Atuei em cima da documentação do Readme.md para que todas as etapas estivessem detalhadas.
+</div>
+
+### Hard Skills
+- Java - Habilidade em desenvolver soluções de programação de forma independente.
+- CSS3 - Capacidade de estilizar autonomamente, incluindo a criação de animações e transições.
+- MySQL - Competência em realizar operações CRUD de forma autônoma.
+
+### Soft Skills
+
+- Comunicação - Capacidade de transmitir informações de maneira clara e eficaz a todos os stakeholders, incluindo clientes, equipes de desenvolvimento e outros departamentos.
+- Negociação- Habilidade para negociar prioridades, prazos e recursos com diferentes partes interessadas, garantindo que os objetivos do produto sejam atingidos.
+- Pensamento crítico: Analisar problemas complexos e tomar decisões informadas com base em dados e feedback, garantindo que as soluções propostas sejam viáveis e eficazes.
+
+---
+
 Em 2023-1
 
 ![image](https://github.com/larissasouz/Bertoti/assets/102266928/a40ad081-cf92-4932-8035-a582fa4d0e00)
@@ -144,3 +231,106 @@ Os principais aprendizados da minha experiência trabalhando em projetos que env
 <b>Entendimento do Ciclo de Desenvolvimento:</b> Ganhei uma visão completa do ciclo de vida do desenvolvimento de software, desde a criação da interface do usuário até a lógica de negócios e o gerenciamento de dados.<br>
 
 <b>Fluxo de Dados:</b> Compreendi como os dados fluem entre o Front-End e o Back-End em aplicativos web.<br>
+
+-----
+
+
+### Em 2023-2
+
+<div align="justify">
+
+No 4º semestre,desenvolvemos um sistema web para simplificar a gestão de prestadores de serviço, segmentos e ordens de serviço. Este projeto incluiu a criação de uma landing page intuitiva para facilitar a solicitação de novas ordens de serviço por novos clientes, através de um formulário simples.
+
+Para os clientes existentes, foi disponibilizado uma landing page personalizada, permitindo fácil acesso às ordens de serviço anteriores, a possibilidade de baixar laudos novamente e fornecer feedback valioso, incluindo sugestões e reclamações. Além disso, eles também podem realizar novas solicitações de ordens de serviço diretamente pela plataforma.
+
+![consulta de segmento](https://github.com/B1nary-Devs/JAIA-SOFTWARE/assets/102266928/f3ec5880-c825-4080-a898-0c97a086d3d2)
+
+<b>Exemplo:</b> 
+O código abaixo é código em vue que tem como objetivo realizar o update de um prestador de serviço.
+
+</div>
+
+~~~java
+    async function atualizarPrestador() {
+    // Verifique se uma categoria foi selecionada
+    if (categoriaSelecionada.value === null) {
+      alert('Selecione uma categoria antes de cadastrar.');
+      return;
+    }
+    // Fazendo a requisição POST com os valores capturados
+    try {
+        let rota = 'http://localhost:8080/prestador/' + id.value
+        console.log(rota);
+      await axios.put(rota, {
+        prestadorNome: nome.value,
+        cnpj: cnpj.value,
+        email: email.value,
+        senha: senha.value,
+        segmentoId: 1 
+      });
+        alert('Registro atualizado!!');
+  
+    } catch (error) {
+      console.error('Ocorreu um erro ao cadastrar o prestador:', error);
+      alert('Erro ao cadastrar o prestador.');
+    }
+    }
+~~~
+
+Para mais informações: <a href="https://github.com/B1nary-Devs/JAIA-SOFTWARE">GIT</a>
+
+<b> Tecnologias Utilizadas </b>
+- Java (Back-end)
+- Oracle Cloud (Back-end)
+- Typescript (Front-end)
+- HTML5 (Front-end)
+- CSS3 (Front-end)
+
+### Contribuições pessoais
+
+<div align="justify">
+
+Durante minha atuação no projeto, como Product Owner, tive a responsábilidade de desenvolver os seguintes itens:
+
+<b> Backlog do produto: </b> Após entender as dores e desenvolver os requisitos do cliente e do projeto, criei o backlog do produto que tinha como objetivo apresentar as atividades e suas respectivas prioridades.
+
+<b> Backlog da sprint: </b> Depois de definido a prioridade das atividades, decidi junto à equipe quando cada atividade seria desenvolvida, sendo criado assim o backlog da sprint. No total, foram 4 sprints de desenvolvimento.
+
+<b> Modelagem do banco de dados: </b> Atuei na modelagem conceitual do banco de dados, definindo como os dados deveriam ser armazenados.
+
+<b> Protótipo de baixa fidelidade: </b> Realizei o design dos protótipos de baixa fidelidade de acordo com as necessidades do cliente.
+
+<b> Jornada do usuário: </b> Desenvolvi a jornada de usuário utilizando Miro, onde foi apresentado todo o fluxo do sistema e como ele deveria se comportar em algumas situações.
+
+<b> Readme: </b> Atuei em cima da documentação do Readme.md para que todas as etapas estivessem detalhadas.
+
+Além dessas atuações, também desenvolvi algumas funcionalidades importantes para o projeto, como:
+
+<b> CRUD de ordem de serviço: </b> Trabalhei em cima de todo o crud da ordem de serviço, para que o usuário final pudesse criar, consultar, atualizar e apagar conforme sua necessidade.
+
+<b> Modal de ordem de serviço: </b> Criei um modal para que as informações fossem apresentadas de forma correta.
+
+<b> Checklist personalizado: </b> Como no projeto havia a opção de "checklist personalizado", desenvolvi essa opção para que o usuário pudesse alterar ou inserir um novo checklist de acordo com sua necessidade dentro daquela ordem de serviço.
+
+<b> Cadastro e Consulta de Segmento: Atuei para que o cadastro e a consulta do segmento fosse realizada corretamente no front-end.
+
+</div>
+
+- Java (Back-end)
+- Oracle Cloud (Back-end)
+- Typescript (Front-end)
+- HTML5 (Front-end)
+- CSS3 (Front-end)
+
+### Hard Skills
+- Java - Habilidade em desenvolver soluções de programação de forma independente.
+- OracleCloud - Competência em realizar operações CRUD de forma autônoma.
+- CSS3 - Capacidade de estilizar autonomamente, incluindo a criação de animações e transições.
+- Typescript - Proficiência em desenvolver aplicações web robustas, com tipagem estática que melhora a qualidade do código e a produtividade.
+
+### Soft Skills
+
+- Liderança -  Capacidade em influenciar e motivar a equipe de desenvolvimento.
+- Gestão do tempo: Priorizar tarefas e gerenciar o tempo de forma eficiente, assegurando que os projetos sejam concluídos dentro dos prazos estabelecidos.
+- Visão estratégica: Capacidade de alinhar as atividades com a visão e os objetivos de longo prazo.
+- Resolução de problemas: Abordar desafios de forma proativa e encontrar soluções para obstáculos que surgem durante o desenvolvimento.
